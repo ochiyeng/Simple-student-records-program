@@ -5,8 +5,16 @@ public class StudentRecords {
      int id;
      String name;
      int age;
+     int yearOfStudy;
      char gender;
 
+    public int getYearOfStudy() {
+        return yearOfStudy;
+    }
+
+    public void setYearOfStudy(int yearOfStudy) {
+        this.yearOfStudy = yearOfStudy;
+    }
 
     public int getId() {
         return id;
@@ -46,13 +54,16 @@ public class StudentRecords {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", yearOfStudy=" + yearOfStudy +
                 ", gender=" + gender +
                 '}';
     }
+
     public  void printStudentRecords(){
         System.out.println("  id  :  " +  id);
         System.out.println("Name  :  " +  name);
         System.out.println("age   :  " +  age);
+        System.out.println("yearOfStudy:  " +  yearOfStudy);
         System.out.println("gender:  " +  gender);
     }
 }
