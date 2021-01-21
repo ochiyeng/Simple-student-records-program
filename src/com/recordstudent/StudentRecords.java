@@ -7,6 +7,7 @@ public class StudentRecords {
      int age;
      char gender;
 
+
     public int getId() {
         return id;
     }
@@ -48,5 +49,10 @@ public class StudentRecords {
                 ", gender=" + gender +
                 '}';
     }
-
+    public  void printStudentRecords(){
+        System.out.println("  id  :  " +  id);
+        System.out.println("Name  :  " +  name);
+        System.out.println("age   :  " +  age);
+        System.out.println("gender:  " +  gender);
+    }
 }
