@@ -11,13 +11,17 @@ public class Main {
         studentRecordsFirstEntry.id  =1;
         studentRecordsFirstEntry.name ="John Doe";
         studentRecordsFirstEntry.age = 18;
+        studentRecordsFirstEntry.yearOfStudy= 3;
         studentRecordsFirstEntry.gender = 'M';
+        studentRecordsFirstEntry.printStudentRecords();
+        System.out.println("\n=====================");
 
 
         //Assigning values to studentRecordsSecondEntry
         studentRecordsSecondEntry.id  =1;
         studentRecordsSecondEntry.name ="Maria Doe";
         studentRecordsSecondEntry.age = 17;
+        studentRecordsSecondEntry.yearOfStudy =1;
         studentRecordsSecondEntry.gender = 'F';
         studentRecordsSecondEntry.printStudentRecords();
         System.out.println("\n====================");
